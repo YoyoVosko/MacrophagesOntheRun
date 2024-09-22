@@ -4585,10 +4585,9 @@ def getGSEsFromText(file,gseIds=[],totalIds=0):
                     gseIds.append(GSEid)
     return gseIds,totalIds
 
-
-clust13Genes=readLst('/mnt/booleanfs2/sahoo/Data/BooleanLab/Yotam/Mac_Cluster_13_Genes.txt')
-clust3Genes=readLst('/mnt/booleanfs2/sahoo/Data/BooleanLab/Yotam/Mac_Cluster_3_Genes.txt')
-clust14Genes=readLst('/mnt/booleanfs2/sahoo/Data/BooleanLab/Yotam/Mac_Cluster_14_Genes.txt')
+clust13Genes=readLst('Files/Mac_Cluster_13_Genes.txt')
+clust3Genes=readLst('Files/Mac_Cluster_3_Genes.txt')
+clust14Genes=readLst('Files/Mac_Cluster_14_Genes.txt')
 allGenes=clust13Genes.copy()
 allGenes.extend(clust14Genes)
 allGenes.extend(clust3Genes)
