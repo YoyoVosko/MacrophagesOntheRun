@@ -20,8 +20,8 @@ import pickle
 import sys
 import glob
 from tqdm import tqdm_notebook as tq
-sys.path.append("/booleanfs2/sahoo/Hegemon/")
-sys.path.append('/booleanfs2/sahoo/Data/Macrophage/BN/')
+sys.path.append("../Files/")
+sys.path.append('../Code/')
 import StepMiner as smn
 import HegemonUtil as hu
 acolor = ["#00CC00", "#D8A03D","#EC008C",
@@ -4586,9 +4586,9 @@ def getGSEsFromText(file,gseIds=[],totalIds=0):
     return gseIds,totalIds
 
 
-clust13Genes=readLst('/mnt/booleanfs2/sahoo/Data/BooleanLab/Yotam/Mac_Cluster_13_Genes.txt')
-clust3Genes=readLst('/mnt/booleanfs2/sahoo/Data/BooleanLab/Yotam/Mac_Cluster_3_Genes.txt')
-clust14Genes=readLst('/mnt/booleanfs2/sahoo/Data/BooleanLab/Yotam/Mac_Cluster_14_Genes.txt')
+clust13Genes=readLst('../Files/Mac_Cluster_13_Genes.txt')
+clust3Genes=readLst('../Files/Mac_Cluster_3_Genes.txt')
+clust14Genes=readLst('../Files/Mac_Cluster_14_Genes.txt')
 allGenes=clust13Genes.copy()
 allGenes.extend(clust14Genes)
 allGenes.extend(clust3Genes)
