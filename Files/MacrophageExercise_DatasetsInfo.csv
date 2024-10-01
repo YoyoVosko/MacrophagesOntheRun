@@ -1,6 +1,5 @@
 ID,Number Samples,Species,Experiment Type,Tissues,Genders,Ages,Citation,Exercise Type
 E-MEXP-740,32,Homo sapiens,transcription profiling by array,{},{'Male': 32},{'69 to 73': 32},https://doi.org/10.1093/gerona/62.10.1088,Resistance/Strength
-E-MTAB-1788,1655,Homo sapiens,transcription profiling by array,{},"{'Unknown': 45, 'Mixed': 428, 'Female': 257, 'Male': 372}","{'2': 26, '0.8': 28, '1.8': 16, ' ': 1032}",https://doi.org/10.1186/s13395-015-0059-1,Aerobic/Endurance
 GSE104079,58,Mus musculus,Expression profiling by array,"{'Soleus': 27, 'Liver': 31}",{'Male': 58},{'6 month old': 58},https://doi.org/10.1096/fj.201701378RR,Aerobic/Endurance
 GSE104999,24,Homo sapiens,Expression profiling by array,{'Vastus': 24},{'Male': 24},{},https://doi.org/10.1152/ajpregu.00452.2017,Immobilization
 GSE109657,22,Homo sapiens,Expression profiling by array,{'Vastus': 22},{'Male': 22},{},https://doi.org/10.1038/s41598-018-35115-x,HITT
