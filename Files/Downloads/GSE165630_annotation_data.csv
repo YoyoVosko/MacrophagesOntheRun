@@ -1,0 +1,15 @@
+ArrayId,time,status,c title,c source_name (ch1),c organism (ch1),c taxid (ch1),c gender (ch1),c age (years) (ch1),c % of resistance training (ch1),c % of endurance training (ch1),c average weekly hours of training (ch1),c molecule (ch1),c group (ch1)
+GSM5047132,,,muscle of sedentary aged subject # 1,muscle vastus lateralis,Homo sapiens,9606,male,70.0,0.0,0.0,0.0,total RNA,sedentary
+GSM5047133,,,muscle of sedentary aged subject # 2,muscle  vastus lateralis,Homo sapiens,9606,male,77.0,0.0,0.0,0.0,total RNA,sedentary
+GSM5047134,,,muscle of sedentary aged subject # 3,muscle  vastus lateralis,Homo sapiens,9606,male,72.0,0.0,0.0,0.0,total RNA,sedentary
+GSM5047135,,,muscle of sedentary aged subject # 4,muscle  vastus lateralis,Homo sapiens,9606,male,75.0,0.0,0.0,0.0,total RNA,sedentary
+GSM5047136,,,muscle of sedentary aged subject # 5,muscle  vastus lateralis,Homo sapiens,9606,male,71.0,0.0,0.0,0.0,total RNA,sedentary
+GSM5047137,,,muscle of well resistance trained aged subject #1,muscle  vastus lateralis,Homo sapiens,9606,male,69.5,100.0,0.0,4.5,total RNA,resistance trained
+GSM5047138,,,muscle of well resistance trained aged subject #2,muscle  vastus lateralis,Homo sapiens,9606,male,66.0,89.0,11.0,9.0,total RNA,resistance trained
+GSM5047139,,,muscle of well resistance trained aged subject #3,muscle  vastus lateralis,Homo sapiens,9606,male,71.6,100.0,0.0,9.0,total RNA,resistance trained
+GSM5047140,,,muscle of well resistance trained aged subject #4,muscle  vastus lateralis,Homo sapiens,9606,male,70.3,65.0,35.0,6.9,total RNA,resistance trained
+GSM5047141,,,muscle of well endurance trained aged subject #1,muscle  vastus lateralis,Homo sapiens,9606,male,69.2,12.5,87.5,16.0,total RNA,endurance trained
+GSM5047142,,,muscle of well endurance trained aged subject #2,muscle  vastus lateralis,Homo sapiens,9606,male,66.5,0.0,100.0,8.0,total RNA,endurance trained
+GSM5047143,,,muscle of well endurance trained aged subject #3,muscle  vastus lateralis,Homo sapiens,9606,male,67.0,14.0,86.0,7.0,total RNA,endurance trained
+GSM5047144,,,muscle of well endurance trained aged subject #4,muscle  vastus lateralis,Homo sapiens,9606,male,67.8,14.0,86.0,14.0,total RNA,endurance trained
+GSM5047145,,,muscle of well endurance trained aged subject #5,muscle  vastus lateralis,Homo sapiens,9606,male,80.7,0.0,100.0,6.0,total RNA,endurance trained
