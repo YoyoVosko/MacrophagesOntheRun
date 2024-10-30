@@ -68,7 +68,7 @@ GSE72462,36,Homo sapiens,Expression profiling by array,{'Muscle': 36},"{'Female'
 GSE7286,24,Homo sapiens,Expression profiling by array,{},{},{},https://doi.org/10.1152/physiolgenomics.00151.2006,Resistance/Strength
 GSE83352,84,Homo sapiens,Expression profiling by array,{'Vastus': 84},"{'Male': 38, 'Female': 46}","{28: 2, 29: 4, 34: 4, 35: 2, 41: 2, 44: 4, 45: 4, 46: 2, 47: 2, 48: 4, 50: 2, 51: 6, 52: 4, 53: 4, 54: 8, 55: 6, 56: 4, 59: 4, 60: 2, 63: 8, 64: 2, 65: 4}",https://doi.org/10.1249/MSS.0000000000001041,Mixed
 GSE83578,64,Homo sapiens,Expression profiling by array,{},"{'Female': 16, 'Male': 16}",{},http://doi.org/10.1186/s12974-016-0758-5,Aerobic/Endurance
-GSE8479,65,Homo sapiens,Expression profiling by array,{},"{'Female': 34, 'Male': 31}","{18: 2, 19: 3, 20: 5, 21: 6, 22: 6, 23: 2, 27: 1, 28: 1, 65: 5, 66: 4, 67: 5, 68: 4, 69: 4, 70: 2, 71: 2, 73: 6, 74: 2, 76: 1, 79: 2, 80: 1, 84: 1}",https://doi.org/10.1371/journal.pone.0000465,Resistance/Strength
+GSE8479,65,Homo sapiens,Expression profiling by array,{},"{'Female': 34, 'Male': 31}","{18: 2, 19: 3, 20: 5, 21: 6, 22: 6, 23: 2, 27: 1, 28: 1, 65: 5, 66: 4, 67: 5, 68: 4, 69: 4, 70: 2, 71: 2, 73: 6, 74: 2, 76: 1, 79: 2, 80: 1, 84: 1}",https://doi.org/10.1371/journal.pone.0000465,Immobilization
 GSE87748,20,Homo sapiens,Expression profiling by high throughput sequencing,{'Skeletal': 20},{},{},https://doi.org/10.3389/fendo.2016.00165,Resistance/Strength
 GSE9103,40,Homo sapiens,Expression profiling by array,{},{},{},https://doi.org/10.2337/db08-0349,Aerobic/Endurance
 GSE9405,21,Homo sapiens,Expression profiling by array,{},{},{},https://doi.org/10.1249/MSS.0b013e31818c6be9,Mixed
