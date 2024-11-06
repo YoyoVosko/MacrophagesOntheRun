@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
 import cv2
 import re
 import numpy as np
@@ -153,6 +148,12 @@ def plotDensityBar(ana, desc=None):
 
 def processData(ana, l1, wt1, desc=None, violin=1):
     ana.orderData(l1, wt1)
+    if (violin == 1):
+        return plotViolinBar(ana, desc)
+    return plotDensityBar(ana, desc)
+
+def processDataDf(ana, l1, wt1,urlBase='http://hegemon.ucsd.edu/Tools/explore.php', desc=None, violin=1):
+    ana.orderDataDf(l1, wt1,urlBase)
     if (violin == 1):
         return plotViolinBar(ana, desc)
     return plotDensityBar(ana, desc)
@@ -1754,7 +1755,7 @@ def getCorrelationsJava(ana, id1, order):
 
 class IBDAnalysis:
 
-    def __init__(self, cf="/booleanfs2/sahoo/Hegemon/explore.conf"):
+    def __init__(self, cf="./Files/Debashis_explore.conf"):
         self.db = hu.Database(cf);
         self.state = []
         self.params = {}
@@ -1806,13 +1807,13 @@ class IBDAnalysis:
         print(len(self.order), [len(i) for i in self.state], \
                 self.source, url + self.dbid, self.dbid)
 
-    def prepareDataDf(self, dbid):
+    def prepareDataDf(self, dbid, urlBase='http://hegemon.ucsd.edu/Tools/explore.php'):
         self.dbid = dbid
-        self.dataset = hu.getHegemonDataset(self.dbid)
+        self.dataset = hu.getHegemonDataset(self.dbid,urlBase)
         self.num = self.dataset[2]
         self.name = self.dataset[1]
         self.source = self.dataset[3]
-        obj = hu.getHegemonPatientData(self.dbid, 'time')
+        obj = hu.getHegemonPatientData(self.dbid, 'time',urlBase)
         self.headers = obj[0]
         self.hhash = {}
         self.start = 2;
@@ -1915,7 +1916,7 @@ class IBDAnalysis:
         self.index = index
         self.otype = 2
 
-    def orderDataDf(self, gene_groups, weight,urlbase):
+    def orderDataDf(self, gene_groups, weight,urlbase='http://hegemon.ucsd.edu/Tools/explore.php'):
         data_g = []
         data_e = []
         data_t = []
