@@ -1,3 +1,0 @@
-['STOM', 'TNFSF10']
-['SYNE1', 'PCNT', 'CRK', 'PPRC1', 'ZNF274']
-['GNPDA1', 'ARHGAP26', 'UGP2']
