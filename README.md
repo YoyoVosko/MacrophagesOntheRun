@@ -1,4 +1,5 @@
 Code associated with the paper: Macrophages on the run: Exercise balances macrophage polarization for improved health
+doi [10.1016/j.molmet.2024.102058]
 
 To Download Expression and Annotation Data use Download_Data.ipynb  
 To Create Figures/Tables as they appear in the paper, use Macrophages_On_The_Run_Make_Figures_Code.ipynb
